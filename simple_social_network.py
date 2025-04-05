@@ -15,3 +15,6 @@ class Person:
         """
         self.name = name
         self.connections = set()
+
+    def connect(self, person2):
+        """Connect with person 2"""
