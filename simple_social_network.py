@@ -17,4 +17,9 @@ class Person:
         self.connections = set()
 
     def connect(self, person2):
-        """Connect with person 2"""
+        """Connect with person 2
+        
+        Args:
+            person2 (Person): the other person to connect to 
+        """
+        
